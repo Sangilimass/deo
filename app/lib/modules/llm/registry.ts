@@ -10,6 +10,7 @@ import OllamaProvider from './providers/ollama';
 import OpenRouterProvider from './providers/open-router';
 import OpenAILikeProvider from './providers/openai-like';
 import OpenAIProvider from './providers/openai';
+import AzureOpenAIProvider from './providers/azure-openai';
 import PerplexityProvider from './providers/perplexity';
 import TogetherProvider from './providers/together';
 import XAIProvider from './providers/xai';
@@ -26,6 +27,7 @@ export {
   MistralProvider,
   OllamaProvider,
   OpenAIProvider,
+  AzureOpenAIProvider,
   OpenRouterProvider,
   OpenAILikeProvider,
   PerplexityProvider,
